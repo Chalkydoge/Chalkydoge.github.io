@@ -2,20 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>总结 on 我的主页</title>
-    <link>https://your_domain.com/categories/%E6%80%BB%E7%BB%93/</link>
+    <link>https://chalkydoge.github.io/categories/%E6%80%BB%E7%BB%93/</link>
     <description>Recent content in 总结 on 我的主页</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
     <webMaster>903437468@qq.com (ck_doge)</webMaster>
-    <lastBuildDate>Sat, 31 Dec 2022 16:28:27 +0800</lastBuildDate>
-    <atom:link href="https://your_domain.com/categories/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 ck_doge</copyright>
+    <lastBuildDate>Sat, 31 Dec 2022 16:28:27 +0800</lastBuildDate><atom:link href="https://chalkydoge.github.io/categories/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>可能是2022的年度总结</title>
-      <link>https://your_domain.com/posts/2022/2022-sum/</link>
-      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2022/2022-sum/</guid>
+      <link>https://chalkydoge.github.io/posts/2022/2022-sum/</link>
+      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2022/2022-sum/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -2,104 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 我的主页</title>
-    <link>https://your_domain.com/tags/</link>
+    <link>https://chalkydoge.github.io/tags/</link>
     <description>Recent content in Tags on 我的主页</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
     <webMaster>903437468@qq.com (ck_doge)</webMaster>
-    <lastBuildDate>Sat, 07 Oct 2023 11:04:48 +0000</lastBuildDate>
-    <atom:link href="https://your_domain.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 ck_doge</copyright>
+    <lastBuildDate>Sat, 07 Oct 2023 11:04:48 +0000</lastBuildDate><atom:link href="https://chalkydoge.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>5G</title>
-      <link>https://your_domain.com/tags/5g/</link>
-      <pubDate>Sat, 07 Oct 2023 11:04:48 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/5g/</guid>
+      <link>https://chalkydoge.github.io/tags/5g/</link>
+      <pubDate>Sat, 07 Oct 2023 11:04:48 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/5g/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>云原生</title>
-      <link>https://your_domain.com/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</link>
-      <pubDate>Sat, 07 Oct 2023 11:04:48 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</guid>
+      <link>https://chalkydoge.github.io/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</link>
+      <pubDate>Sat, 07 Oct 2023 11:04:48 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>快去学算法</title>
-      <link>https://your_domain.com/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</link>
-      <pubDate>Mon, 13 Feb 2023 15:31:58 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</guid>
+      <link>https://chalkydoge.github.io/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Mon, 13 Feb 2023 15:31:58 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Go</title>
-      <link>https://your_domain.com/tags/go/</link>
-      <pubDate>Tue, 31 Jan 2023 14:20:48 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/go/</guid>
+      <link>https://chalkydoge.github.io/tags/go/</link>
+      <pubDate>Tue, 31 Jan 2023 14:20:48 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/go/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>摸鱼</title>
-      <link>https://your_domain.com/tags/%E6%91%B8%E9%B1%BC/</link>
-      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E6%91%B8%E9%B1%BC/</guid>
+      <link>https://chalkydoge.github.io/tags/%E6%91%B8%E9%B1%BC/</link>
+      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E6%91%B8%E9%B1%BC/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>年度总结</title>
-      <link>https://your_domain.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <link>https://chalkydoge.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 31 Dec 2022 16:28:27 +0800</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Networks</title>
-      <link>https://your_domain.com/tags/networks/</link>
-      <pubDate>Fri, 30 Dec 2022 16:25:34 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/networks/</guid>
+      <link>https://chalkydoge.github.io/tags/networks/</link>
+      <pubDate>Fri, 30 Dec 2022 16:25:34 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/networks/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>机器学习</title>
-      <link>https://your_domain.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Thu, 15 Dec 2022 14:58:28 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <link>https://chalkydoge.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Thu, 15 Dec 2022 14:58:28 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>不会不会qaq</title>
-      <link>https://your_domain.com/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/</link>
-      <pubDate>Sun, 04 Dec 2022 22:35:36 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/</guid>
+      <link>https://chalkydoge.github.io/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/</link>
+      <pubDate>Sun, 04 Dec 2022 22:35:36 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>倒置星</title>
-      <link>https://your_domain.com/tags/%E5%80%92%E7%BD%AE%E6%98%9F/</link>
-      <pubDate>Thu, 24 Nov 2022 22:53:06 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E5%80%92%E7%BD%AE%E6%98%9F/</guid>
+      <link>https://chalkydoge.github.io/tags/%E5%80%92%E7%BD%AE%E6%98%9F/</link>
+      <pubDate>Thu, 24 Nov 2022 22:53:06 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E5%80%92%E7%BD%AE%E6%98%9F/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>缺氧</title>
-      <link>https://your_domain.com/tags/%E7%BC%BA%E6%B0%A7/</link>
-      <pubDate>Thu, 24 Nov 2022 22:53:06 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E7%BC%BA%E6%B0%A7/</guid>
+      <link>https://chalkydoge.github.io/tags/%E7%BC%BA%E6%B0%A7/</link>
+      <pubDate>Thu, 24 Nov 2022 22:53:06 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E7%BC%BA%E6%B0%A7/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>下午茶</title>
-      <link>https://your_domain.com/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</link>
-      <pubDate>Sun, 13 Nov 2022 23:16:36 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</guid>
+      <link>https://chalkydoge.github.io/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</link>
+      <pubDate>Sun, 13 Nov 2022 23:16:36 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>SVM</title>
-      <link>https://your_domain.com/tags/svm/</link>
-      <pubDate>Sun, 06 Nov 2022 10:08:45 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/tags/svm/</guid>
+      <link>https://chalkydoge.github.io/tags/svm/</link>
+      <pubDate>Sun, 06 Nov 2022 10:08:45 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/tags/svm/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

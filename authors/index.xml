@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on 我的主页</title>
-    <link>https://your_domain.com/authors/</link>
+    <link>https://chalkydoge.github.io/authors/</link>
     <description>Recent content in Authors on 我的主页</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
     <webMaster>903437468@qq.com (ck_doge)</webMaster>
-    <atom:link href="https://your_domain.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 ck_doge</copyright>
+    <atom:link href="https://chalkydoge.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

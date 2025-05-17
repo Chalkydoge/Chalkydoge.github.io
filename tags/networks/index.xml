@@ -2,20 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on 我的主页</title>
-    <link>https://your_domain.com/tags/networks/</link>
+    <link>https://chalkydoge.github.io/tags/networks/</link>
     <description>Recent content in Networks on 我的主页</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
     <webMaster>903437468@qq.com (ck_doge)</webMaster>
-    <lastBuildDate>Fri, 30 Dec 2022 16:25:34 +0000</lastBuildDate>
-    <atom:link href="https://your_domain.com/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 ck_doge</copyright>
+    <lastBuildDate>Fri, 30 Dec 2022 16:25:34 +0000</lastBuildDate><atom:link href="https://chalkydoge.github.io/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>不同的网络结构整理</title>
-      <link>https://your_domain.com/posts/2022/k8s-network/</link>
-      <pubDate>Fri, 30 Dec 2022 16:25:34 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2022/k8s-network/</guid>
+      <link>https://chalkydoge.github.io/posts/2022/k8s-network/</link>
+      <pubDate>Fri, 30 Dec 2022 16:25:34 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2022/k8s-network/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

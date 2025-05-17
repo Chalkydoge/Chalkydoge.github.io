@@ -2,111 +2,155 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>快去学算法 on 我的主页</title>
-    <link>https://your_domain.com/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</link>
+    <link>https://chalkydoge.github.io/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/</link>
     <description>Recent content in 快去学算法 on 我的主页</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
     <webMaster>903437468@qq.com (ck_doge)</webMaster>
-    <lastBuildDate>Mon, 13 Feb 2023 15:31:58 +0000</lastBuildDate>
-    <atom:link href="https://your_domain.com/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 ck_doge</copyright>
+    <lastBuildDate>Mon, 13 Feb 2023 15:31:58 +0000</lastBuildDate><atom:link href="https://chalkydoge.github.io/tags/%E5%BF%AB%E5%8E%BB%E5%AD%A6%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>有趣的算法题-0213</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-0213/</link>
-      <pubDate>Mon, 13 Feb 2023 15:31:58 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-0213/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-0213/</link>
+      <pubDate>Mon, 13 Feb 2023 15:31:58 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-0213/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-0130</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-0130/</link>
-      <pubDate>Fri, 03 Feb 2023 12:06:05 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-0130/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-0130/</link>
+      <pubDate>Fri, 03 Feb 2023 12:06:05 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-0130/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-0116</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-0116/</link>
-      <pubDate>Fri, 20 Jan 2023 22:20:21 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-0116/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-0116/</link>
+      <pubDate>Fri, 20 Jan 2023 22:20:21 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-0116/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-0109</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-0109/</link>
-      <pubDate>Fri, 20 Jan 2023 22:20:17 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-0109/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-0109/</link>
+      <pubDate>Fri, 20 Jan 2023 22:20:17 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-0109/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-0102</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-0102/</link>
-      <pubDate>Tue, 03 Jan 2023 12:04:32 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-0102/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-0102/</link>
+      <pubDate>Tue, 03 Jan 2023 12:04:32 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-0102/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1226</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1226/</link>
-      <pubDate>Thu, 29 Dec 2022 13:37:34 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1226/</guid>
-      <description>&lt;p&gt;暂时没想好缩略图里面放什么比较好, 目前的体验还挺好, 每天早上起来都可以脑子被暴击一次:(&lt;/p&gt;&#xA;&lt;p&gt;被网络和算法双重暴击&amp;hellip; 真的好工程啊(T)&lt;/p&gt;</description>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1226/</link>
+      <pubDate>Thu, 29 Dec 2022 13:37:34 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1226/</guid>
+      <description>&lt;p&gt;暂时没想好缩略图里面放什么比较好, 目前的体验还挺好, 每天早上起来都可以脑子被暴击一次:(&lt;/p&gt;
+&lt;p&gt;被网络和算法双重暴击&amp;hellip; 真的好工程啊(T)&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1219</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1219/</link>
-      <pubDate>Sun, 25 Dec 2022 14:06:49 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1219/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1219/</link>
+      <pubDate>Sun, 25 Dec 2022 14:06:49 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1219/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1212</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1212/</link>
-      <pubDate>Sun, 25 Dec 2022 14:06:40 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1212/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1212/</link>
+      <pubDate>Sun, 25 Dec 2022 14:06:40 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1212/</guid>
       <description>&lt;p&gt;构造与贪心&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>下午茶合集-1205</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1205/</link>
-      <pubDate>Wed, 07 Dec 2022 22:41:54 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1205/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1205/</link>
+      <pubDate>Wed, 07 Dec 2022 22:41:54 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1205/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1128</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1128/</link>
-      <pubDate>Wed, 30 Nov 2022 20:25:56 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1128/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1128/</link>
+      <pubDate>Wed, 30 Nov 2022 20:25:56 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1128/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1121</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1121/</link>
-      <pubDate>Tue, 22 Nov 2022 20:23:52 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1121/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1121/</link>
+      <pubDate>Tue, 22 Nov 2022 20:23:52 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1121/</guid>
       <description>&lt;p&gt;下午茶知识点: 二维前缀和, 贪心&amp;amp;构造, 双指针&amp;amp;找规律&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>灵茶の试炼-1114</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1114/</link>
-      <pubDate>Sun, 13 Nov 2022 23:16:36 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1114/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1114/</link>
+      <pubDate>Sun, 13 Nov 2022 23:16:36 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1114/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>下午茶 1017-1022</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1022/</link>
-      <pubDate>Mon, 17 Oct 2022 22:42:18 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1022/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1022/</link>
+      <pubDate>Mon, 17 Oct 2022 22:42:18 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1022/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>下午茶 1010-1014</title>
-      <link>https://your_domain.com/posts/2023/tea/tea-1015/</link>
-      <pubDate>Fri, 14 Oct 2022 19:17:57 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
-      <guid>https://your_domain.com/posts/2023/tea/tea-1015/</guid>
+      <link>https://chalkydoge.github.io/posts/2023/tea/tea-1015/</link>
+      <pubDate>Fri, 14 Oct 2022 19:17:57 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2023/tea/tea-1015/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>
