@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>缺氧 on 我的主页</title>
+    <link>https://your_domain.com/tags/%E7%BC%BA%E6%B0%A7/</link>
+    <description>Recent content in 缺氧 on 我的主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
+    <webMaster>903437468@qq.com (ck_doge)</webMaster>
+    <lastBuildDate>Thu, 24 Nov 2022 22:53:06 +0000</lastBuildDate>
+    <atom:link href="https://your_domain.com/tags/%E7%BC%BA%E6%B0%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>缺氧游戏记录</title>
+      <link>https://your_domain.com/posts/2022/oni/</link>
+      <pubDate>Thu, 24 Nov 2022 22:53:06 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/oni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

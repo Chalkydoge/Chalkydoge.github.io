@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>不会不会qaq on 我的主页</title>
+    <link>https://your_domain.com/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/</link>
+    <description>Recent content in 不会不会qaq on 我的主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
+    <webMaster>903437468@qq.com (ck_doge)</webMaster>
+    <lastBuildDate>Sun, 04 Dec 2022 22:35:36 +0000</lastBuildDate>
+    <atom:link href="https://your_domain.com/tags/%E4%B8%8D%E4%BC%9A%E4%B8%8D%E4%BC%9Aqaq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>卷积神经网络总结 CNN</title>
+      <link>https://your_domain.com/posts/2022/ml-cnn/</link>
+      <pubDate>Sun, 04 Dec 2022 22:35:36 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/ml-cnn/</guid>
+      <description>&lt;p&gt;CNN作业记录, 准备试用一下LaTex模板~&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

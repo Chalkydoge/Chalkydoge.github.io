@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>机器学习 on 我的主页</title>
+    <link>https://your_domain.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 机器学习 on 我的主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
+    <webMaster>903437468@qq.com (ck_doge)</webMaster>
+    <lastBuildDate>Thu, 15 Dec 2022 14:58:28 +0000</lastBuildDate>
+    <atom:link href="https://your_domain.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>期末考试复习(开卷)</title>
+      <link>https://your_domain.com/posts/2022/ml-final/</link>
+      <pubDate>Thu, 15 Dec 2022 14:58:28 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/ml-final/</guid>
+      <description>&lt;p&gt;CNN,RNN, Transformer原理; 无监督学习&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>卷积神经网络总结 CNN</title>
+      <link>https://your_domain.com/posts/2022/ml-cnn/</link>
+      <pubDate>Sun, 04 Dec 2022 22:35:36 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/ml-cnn/</guid>
+      <description>&lt;p&gt;CNN作业记录, 准备试用一下LaTex模板~&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>机器学习作业-欺诈识别</title>
+      <link>https://your_domain.com/posts/2022/ml-fraud/</link>
+      <pubDate>Thu, 24 Nov 2022 22:49:20 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/ml-fraud/</guid>
+      <description>&lt;p&gt;令人吐血的作业&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mlp-nn</title>
+      <link>https://your_domain.com/posts/2022/mlp-nn/</link>
+      <pubDate>Sun, 06 Nov 2022 17:18:47 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/mlp-nn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>支持向量机/向量机回归总结(SVM-SVR)</title>
+      <link>https://your_domain.com/posts/2022/svm-svr/</link>
+      <pubDate>Sun, 06 Nov 2022 10:08:45 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/svm-svr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ml_notes</title>
+      <link>https://your_domain.com/posts/2022/ml-notes/</link>
+      <pubDate>Sat, 05 Nov 2022 12:10:50 +0000</pubDate><author>903437468@qq.com (ck_doge)</author>
+      <guid>https://your_domain.com/posts/2022/ml-notes/</guid>
+      <description>&lt;p&gt;placeholder replace me!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
