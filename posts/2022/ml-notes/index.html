@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="zh-cn" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>ml_notes &middot; 我的主页</title>
+  <meta name="title" content="ml_notes &middot; 我的主页" />
+  
+  
+  <meta name="keywords" content="机器学习, " />
+  
+  
+  <link rel="canonical" href="https://chalkydoge.github.io/posts/2022/ml-notes/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.36c3cd7950e4533fa7da3150d972e3edf34d07f83c0264ff04cad0969dfdb3b8a7065b0ed6c730c6d34a7bad516cfc6f6a5917ab1fdb10b25f481f8a17b54c16.css"
+    integrity="sha512-NsPNeVDkUz&#43;n2jFQ2XLj7fNNB/g8AmT/BMrQlp39s7inBlsO1scwxtNKe61RbPxvalkXqx/bELJfSB&#43;KF7VMFg==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b6411b5d4cd56c0068d34c4acbce043846adad56b824e3d486a06d3459aed2eb7f7413874b7871cc2c822c8c8834cbed944022918bcc8cca710a962167c36d32.js"
+    integrity="sha512-tkEbXUzVbABo00xKy84EOEatrVa4JOPUhqBtNFmu0ut/dBOHS3hxzCyCLIyINMvtlEAikYvMjMpxCpYhZ8NtMg==" data-copy="复制" data-copied="已复制"></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.f592a181a15d2a5b042daa7f746c3721acf9063f8b6acd175d989129865a37d400ae0e85b640f9ad42cd98d1f8ad30931718cf8811abdcc5fcb264400d1a2b0c.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj&#43;Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://chalkydoge.github.io/posts/2022/ml-notes/">
+  <meta property="og:site_name" content="我的主页">
+  <meta property="og:title" content="ml_notes">
+  <meta property="og:description" content="placeholder replace me!">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-11-05T12:10:50+00:00">
+    <meta property="article:modified_time" content="2022-11-05T12:10:50+00:00">
+    <meta property="article:tag" content="机器学习">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ml_notes">
+  <meta name="twitter:description" content="placeholder replace me!">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "ml_notes",
+    "headline": "ml_notes",
+    
+    "abstract": "\u003cp\u003eplaceholder replace me!\u003c\/p\u003e",
+    "inLanguage": "zh-cn",
+    "url" : "https:\/\/chalkydoge.github.io\/posts\/2022\/ml-notes\/",
+    "author" : {
+      "@type": "Person",
+      "name": "ck_doge"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-11-05T12:10:50\u002b00:00",
+    "datePublished": "2022-11-05T12:10:50\u002b00:00",
+    
+    "dateModified": "2022-11-05T12:10:50\u002b00:00",
+    
+    "keywords": ["机器学习"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1830"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="ck_doge" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <link href="https://github.com/chalkydoge" rel="me" />
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>跳过正文</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">我的主页</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Posts">
+        记录
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        上级目录
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class=" flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Posts">
+            记录
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            上级目录
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      ml_notes
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2022-11-05T12:10:50&#43;00:00">2022 年 11 月 5 日</time><span class="px-2 text-primary-500">&middot;</span><span>1830 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">9 分钟</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="ck_doge" src="/img/blowfish_logo_hu_e74a130226122ae3.png" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      作者
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      ck_doge
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">he1lo, th3re</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:903437468@qq.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/chalkydoge"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>placeholder replace me!</p>
+<ol>
+<li>
+<p>机器学习三要素</p>
+<ul>
+<li>映射函数</li>
+<li>目标函数</li>
+<li>设计算法</li>
+</ul>
+</li>
+<li>
+<p>按照基本的分类</p>
+<ul>
+<li>分类算法</li>
+<li>回归算法</li>
+</ul>
+</li>
+<li>
+<p>重点</p>
+<ul>
+<li>算法的设计, 物理含义, 适用场景;</li>
+<li>映射函数/损失函数的设计, 公式含义;</li>
+</ul>
+</li>
+</ol>
+
+
+<h1 class="relative group">期中复习 
+    <div id="%E6%9C%9F%E4%B8%AD%E5%A4%8D%E4%B9%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%9C%9F%E4%B8%AD%E5%A4%8D%E4%B9%A0" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+
+
+<h2 class="relative group">分类算法 
+    <div id="%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>线性模型分类器</p>
+<ol>
+<li>分类 与 回归 的区别</li>
+</ol>
+<p>回归: 对于每一个输入$x$ 输出一个预测$y$为实数值;</p>
+<p>分类: $X-&gt;Y = C_k$ 也就是映射出的值是一个标签(K = 2, K &gt; 2)的情况</p>
+<ul>
+<li>1-of-K 编码 (1, 0, 0, 0, 0) - (0, 0, 0, 0, 1)</li>
+</ul>
+<p>输入空间被划分成 决策区域，边界就是决策平面/决策边界</p>
+<p>判别函数 $F(X) = C_K$ discriminant function</p>
+<p>或者 概率函数$P(C_K|X)$ 指的是一个输入属于某一类别的概率大小</p>
+<ul>
+<li>
+<p>基于概率的决策分类模型: 对于$P(C_K | X)$进行概率预测, 建模</p>
+</li>
+<li>
+<p>或者 生成模型</p>
+</li>
+<li>
+<p>$P(X|C_K)$ 我们的预测值,给定标签$C_K$ 问出现输入为$X$的概率是多少?</p>
+</li>
+<li>
+<p>$P(C_K) $ 先验已知</p>
+</li>
+<li>
+<p>利用贝叶斯 推算后验概率 $P(C_K | X) = \frac{P(X|C_K)P(C_K)}{P(X)}$</p>
+</li>
+</ul>
+<p>机器学习的两类模型: 判别模型和生成模型</p>
+<p>基础线性模型 $y(x) = w^Tx+b$
+$y(x) = f(w^Tx + b)$</p>
+<p>泛化的线性模型- 分布在$(0, 1)$之间</p>
+<p>$f(.)$是激活函数</p>
+<ul>
+<li>决策平面仍然是x的线性函数,即使激活函数非线性</li>
+</ul>
+
+
+<h2 class="relative group">分类算法整理(Classification) 
+    <div id="%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86classification" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86classification" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>输入变量$x$, 模型$y = f(w,x)$, 输出$y_k \in {C_1, &hellip;, C_k}$ 离散值</p>
+
+
+<h3 class="relative group">1. 感知机 Perceptrons 
+    <div id="1-%E6%84%9F%E7%9F%A5%E6%9C%BA-perceptrons" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-%E6%84%9F%E7%9F%A5%E6%9C%BA-perceptrons" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p><strong>模型</strong></p>
+<p>单层神经元模型</p>
+<p>模型可以表示为一个广义上的线性模型(关于基函数basis-function)</p>
+<ul>
+<li>$x$为我们的输入变量, $\phi(x)$为基函数, $w$为待学习的参数</li>
+</ul>
+<p>$$
+y(x) = f(w^T\phi(x))
+$$</p>
+<p>这里的<strong>非线性</strong>激活函数 $f(*) = sgn(x)$ 也就是符号阶跃函数
+即 $f(a) = 1, a \geq 0;\ f(a) = -1, a \lt 0$</p>
+<p><strong>评价标准</strong></p>
+<ul>
+<li>(判别模型)错分的实例数量</li>
+<li>(生成模型)概率分布</li>
+</ul>
+<p>例如输出变量$t \in {-1, +1}$ 表示二分类的$C_1, C_2$</p>
+<p>那么有$1 = t = w^T\phi(x), t\in C_1, t &gt; 0$</p>
+<p>否则$-1 = t &lt; 0$</p>
+<p>误差函数</p>
+<ul>
+<li>定义$\phi_i = \phi(x_i)$ 即对应第$i$个实例向量</li>
+<li>$E(w) = -\sum_{\phi_i \in M} w^T \phi_i t_i$ ，实际上就是错分类的数量</li>
+</ul>
+<p>对这个函数进行梯度下降可以求解最优解；</p>
+<p>学习过程：SGD</p>
+<p>$w&rsquo; = w - \eta \frac{\partial E}{\partial w} = w + \eta \phi_i t_i$</p>
+<ul>
+<li>
+<p>如果存在错误实例/$E(w)$大于0，就不断更新$w$</p>
+</li>
+<li>
+<p>收敛性证明: 数据实例线性可分情况下始终会收敛</p>
+</li>
+</ul>
+<p>简单的证明:</p>
+<p>当前的损失
+$$E(w) = -w\phi(x_i)y_i$$</p>
+<p>更新后
+$$
+E(w&rsquo;) = -w&rsquo;\phi(x_i)y_i = -(w+\eta \phi_i t_i)\phi(x_i)y_i = E(w) - \eta (\phi_i y_i)^T \phi_i t_i
+$$</p>
+<p>而后面这一项由定义可知总是非负数;因此如果存在最优解总是会在有限时间内收敛.</p>
+
+
+<h4 class="relative group">总结 
+    <div id="%E6%80%BB%E7%BB%93" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>优点: 简单，对线性可分问题总是可求解，可扩展；</li>
+<li>缺点：受数据影响大，无法支持非线性可分问题，学习率选取？</li>
+</ul>
+
+
+<h3 class="relative group">2. KNN 
+    <div id="2-knn" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-knn" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">模型 
+    <div id="%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>输入: 训练数据集
+$$
+T = {(x_1,y_1), &hellip;, (x_n, y_n)}
+$$</p>
+<p>输出: 实例 $x$ 所属的类$y$</p>
+<ul>
+<li>根据给定的距离计算方式，在T中寻找$x$最近的k个点，这个区域记作$N_k(x)$</li>
+<li>在区域$N_k(x)$内进行选择，取最多的出现标签</li>
+</ul>
+<p>所以得出最终的推测结果$y$</p>
+<p>$$
+y = argmax_{c_j} \sum _{x_i \in N_k(x)} I(y_i = c_j)
+$$</p>
+
+
+<h4 class="relative group">误差函数 
+    <div id="%E8%AF%AF%E5%B7%AE%E5%87%BD%E6%95%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%AF%AF%E5%B7%AE%E5%87%BD%E6%95%B0" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>距离度量的选择</li>
+</ul>
+<p>L1距离 $L_1(x_i,x_j)$</p>
+<p>L2距离 $L_2(x_i,x_j)$</p>
+<p>Lp距离 == Minkowski距离 $L_p(x_i,x_j) = (\sum_{l=1}^n |x_i^l - x_j^l|^p)^{\frac{1}{p}}$</p>
+<ul>
+<li>k值大小的选择</li>
+</ul>
+<p>较小的$k$: 敏感 容易被噪声点影响, 学习的近似误差会减小；但是估计误差会增大</p>
+<p>较大的$k$: 有效减小学习的估计误差，但是近似误差会变大</p>
+<ul>
+<li>多数表决原则</li>
+</ul>
+<p>错误分类的概率 $P(Y \neq F(x)) = 1 - P(Y = F(x))$</p>
+<p>给定领域$N_k(x)$ 那么错误分类的概率等于 $1 - \frac{1}{k}\sum_{x_i \in  N_k(x)} I(y_i = c_j)$</p>
+<p>为了尽可能缩小错分概率 == 尽可能增大分类正确的概率</p>
+
+
+<h4 class="relative group">KNN的实现-kd tree 
+    <div id="knn%E7%9A%84%E5%AE%9E%E7%8E%B0-kd-tree" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#knn%E7%9A%84%E5%AE%9E%E7%8E%B0-kd-tree" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>给定一个目标点，首先搜索最近邻，找到包含目标点的kd-node，然后依次回退到它的parent节点，不断寻找与目标点距离最近的节点直到找不到更近的节点。</p>
+<ul>
+<li>
+<p>kd-node 每一个节点对应了k-dimension种某一个维度的二分区域结果，叶子节点中只包含一个实例点</p>
+</li>
+<li>
+<p>在kd树上搜索(K)最近邻可以高效利用节点的性质完成</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">3. 朴素贝叶斯 
+    <div id="3-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>模型在给出已知的样本训练集分布$p(x)$以及此时的先验输出概率$p(y)$, 试图学习条件概率$p(y|x)$的分布模型, 使得其表现的<strong>最好</strong>, 这就是贝叶斯学习的基本想法.</p>
+
+
+<h3 class="relative group">4. Logistic回归(最大熵模型) 
+    <div id="4-logistic%E5%9B%9E%E5%BD%92%E6%9C%80%E5%A4%A7%E7%86%B5%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-logistic%E5%9B%9E%E5%BD%92%E6%9C%80%E5%A4%A7%E7%86%B5%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>逻辑斯蒂回归-分类常用的算法</p>
+<p>引入：bayes公式=&gt; logistc函数
+$$
+P(C_1 | x) = \frac{p(x|C_1) P(C_1)}{p(x|C_1)P(C_1) + p(x|C_2)P(C_2)} = \frac{1}{1 + e^-a} = \sigma(a)
+$$</p>
+<p>那么求解$a = ln \frac{p(x|C_1)P(C_1)}{p(x|C_2)P(C_2)}$  (后面可以看到实际上就是<strong>几率</strong>)</p>
+
+
+<h4 class="relative group">模型 
+    <div id="%E6%A8%A1%E5%9E%8B-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%A8%A1%E5%9E%8B-1" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>
+<p>logistic函数 $\sigma(x) = \frac{1}{1+e^{-x}}$</p>
+</li>
+<li>
+<p>对于二分类问题 定义几率
+$$
+logit = \frac{p(c_1)}{p(c_2)} = \frac{p(c_1)}{1 - p(c_1)}
+$$</p>
+</li>
+<li>
+<p>logistic函数的反函数就是 ln几率</p>
+</li>
+</ul>
+<p>$x = ln(\frac{\sigma(x)}{1 - \sigma(x)})$</p>
+<ul>
+<li>logistic函数作为激活函数: 使得我们的判别结果可以理解为<strong>后验概率</strong></li>
+</ul>
+<p>多分类问题下的logistic函数</p>
+<ul>
+<li>标准化 exp/softmax函数</li>
+</ul>
+<p>$$
+P(C_k|x) = \frac{p(x|C_k) P(C_k)}{\sum_j p(x|C_j)P(C_j)} = \frac{exp(a_k)}{\sum_j exp(a_j)}, \ where\ a_k = ln\ p(x|C_k)P(C_k)
+$$</p>
+<p>以上讨论的都是离散取值的情况，对于连续的情况，我们假设样本关于标签取值是正态分布</p>
+
+
+<h4 class="relative group">评价标准 
+    <div id="%E8%AF%84%E4%BB%B7%E6%A0%87%E5%87%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%AF%84%E4%BB%B7%E6%A0%87%E5%87%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>定义误差函数(交叉熵)</p>
+<p>对于一个数据集${x_n, t_n}$, $t_n \in {0,1}$</p>
+<ul>
+<li>输出为标签$t$的概率似然函数可以写作是:</li>
+</ul>
+<p>$P(t|w) = \Pi_{n=1}^N y_n^{t_n} (1 - y_n)^{1 - t_n}$ 也就是每一个分量取到正确值的概率之积</p>
+<p>损失函数就是它的负对数:</p>
+<ul>
+<li>$E(w) = -ln P(t|w) = -\sum_{n=1}^N(t_n ln y_n + (1 - t_n) ln (1 - y_n))$</li>
+</ul>
+<p>也被称为交叉熵误差，其中$y_n = \sigma(a_n) = \sigma(w^Tx + b) = \sigma(w^T\phi)$</p>
+
+
+<h4 class="relative group">总结 
+    <div id="%E6%80%BB%E7%BB%93-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93-1" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>
+<p>logistic函数与对数几率;</p>
+</li>
+<li>
+<p>误差函数定义为交叉熵损失($-ln P(t|w)$), 对后验概率的对数取负数;</p>
+</li>
+<li>
+<p>多分类情况 =&gt; softmax函数</p>
+</li>
+<li>
+<p>$P(t|w) = \sigma(a) = \sigma(w^Tx+b)$ 可以看出对数几率 关于输入$x$是一个线性函数，这也就是模型的本质</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">5. 决策树* 
+    <div id="5-%E5%86%B3%E7%AD%96%E6%A0%91" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-%E5%86%B3%E7%AD%96%E6%A0%91" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+
+
+<h3 class="relative group">6. SVM(线性, 核方法) 
+    <div id="6-svm%E7%BA%BF%E6%80%A7-%E6%A0%B8%E6%96%B9%E6%B3%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6-svm%E7%BA%BF%E6%80%A7-%E6%A0%B8%E6%96%B9%E6%B3%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p><strong>SVM-支持向量机</strong></p>
+<ul>
+<li>
+<p>输入: 样本集合 $T = {(x_1, y_1), &hellip;, (x_n, y_n)}$, $x$为输入变量, $y$为输出值(eg. 属于的类别)</p>
+</li>
+<li>
+<p>输出: 我们的SVM模型 $y = w^Tx + b$</p>
+</li>
+</ul>
+<p>$w^T = w^{\star}$, $b = b^{\star}$</p>
+<p>满足条件 $maxmin(f(x_i)) = max(min|{w^{*}}^{T}x + b|)$</p>
+<p>其中 我们记录$\rho = |w^{T}x + b|$ 为样本点的绝对距离, 由于此时我们的系数$w^<em>$的模大小是1, 因此实际的距离$y_i</em>f(w^Tx+b)/|w|$也就是上式的值(由于我们是一个二分类问题, $y_i$取值为${1, -1}$)</p>
+<ul>
+<li>
+<p>映射函数: $y = f(x_i) = w^Tx + b$</p>
+</li>
+<li>
+<p>目标: 最大化 <strong>样本点到 决策平面的最小距离</strong>, 此时落在这个最小距离上的样本被称为支持向量</p>
+</li>
+<li>
+<p>目标函数 $min_w{ \frac{1}{2} |w|^2},\ s.t.\ \forall_{i = 1}^n y_i(w^Tx_i + b) \geq 1$</p>
+</li>
+</ul>
+<p>要证明我们的分类器SVM能够收敛, 我们这里沿用感知机模型的结论(感知机不要求这个函数距离的最小, 只要求分类正确因此可以存在很多个)</p>
+<ul>
+<li>
+<p>收敛性, 最多经过$(b^2 + 1)(R^2 + 1) / \rho^2$ 次更新,就能找到答案($R = max_i ||x_i||$)</p>
+</li>
+<li>
+<p>SVM的重要参数: $\rho$ 几何距离大小(当$|w| = 1$时也就是函数距离)</p>
+</li>
+</ul>
+<p>$\rho$(margin) 决定了:</p>
+<ol>
+<li>两个类是如何区分的</li>
+<li>算法收敛的速度</li>
+</ol>
+<p>SVM定义了函数距离</p>
+<p>$\rho_f(x, y) = y \times f(x)$</p>
+<p>$min\rho_f = \rho_{min} = min(\rho_f(x_i, y_i))$</p>
+<p>目标就是找到一个模型满足:</p>
+<p>$f* := argmax_f\rho_{min} = argmax_f min\rho_f(x_i,y_i)$</p>
+<p>实际上也就是
+$y = w^Tx + b$, 寻找一组参数$w^* = (w,b)$, 使得$\rho = min(y_i (\frac{w\cdot x}{|w|} + \frac{b}{w}))$ 最大(间隔最大)</p>
+<p>当我们的$\rho &gt; 0$时, SVM是硬间隔支持向量机。</p>
+<p>以上是基本的SVM模型, 而如何更好地求解SVM引入了对偶形式地SVM</p>
+<p><strong>原问题</strong></p>
+<p>$argmax_{w,b}\ \rho,\ s.t.\ \frac{y_i(w^Tx+b)}{|w|} \geq \rho$</p>
+<p>等价于</p>
+<ul>
+<li>标准形式下(最近距离$\rho = 1$)的目标函数 $min_w{ \frac{1}{2} |w|^2},\ s.t.\ \forall_{i = 1}^n y_i(w^Tx_i + b) \geq 1$</li>
+</ul>
+<p>引入Lagrange乘数项</p>
+<ul>
+<li>转为求解 $L(w,b,\alpha) = \frac{1}{2}|w|^2 - \sum_{i = 1}^n\alpha_i (y_i(w^Tx_i + b) - 1))$</li>
+</ul>
+<p>求导数为0得到中间结果</p>
+<p>$w = \sum_{i = 1}^n \alpha_i y_i x_i$</p>
+<p>$\sum_{i  =1}^n\alpha_i y_i = 0$</p>
+<p>代入原式 $L(w,b,\alpha) = \frac{1}{2}|w|^2 - \sum_{i = 1}^n\alpha_i (y_i(w^Tx_i + b) - 1))$</p>
+<p>得到化简结果(w化简自然引入<strong>内积</strong>, 这也是后面非线性/核方法的重要基础)</p>
+<p>$L(\alpha) = \sum_{i = 1}^n\alpha_ -  \frac{1}{2}\sum_{i=1}^n\sum_{j=1}^n y_iy_j \alpha_i \alpha_j (x_i \cdot x_j)$</p>
+<p>使得$\alpha_i \geq 0,\ 1\leq i \leq n$成立;</p>
+<p>以及 $\sum_{i = 1}^n \alpha_i y_i = 0$</p>
+<p>求出$\alpha$ 得到了 $w^*$</p>
+<p>观察$f(x) = w^Tx + b = \sum_{i = 1}^n \alpha_i y_i x_i^T x + b$</p>
+<p>对于所有支持向量$x_j$满足$y_jf(x_j) = 1$</p>
+<p>也就是说$f(x_j) = \sum\alpha_i y_i (x_i \cdot x_j) + b$</p>
+<p>$b^* = \frac{1}{N_s}\sum_{j\in S}(y_j - \sum_{i\in S} \alpha_i y_i x_i \cdot x_j)$
+(其实就是所有支持向量的均值)</p>
+<p>于是我们的判别函数
+$f(x) = sgn(\sum_{i = 1}^n\alpha_i^* y_i x_i^T x + b^* )$就求出来了;</p>
+<hr>
+<ol start="2">
+<li>Non-Linear SVM 非线性支持向量机</li>
+</ol>
+<ul>
+<li>
+<p>$L(\alpha) = \sum_{i = 1}^n\alpha_i -  \frac{1}{2}\sum_{i=1}^n\sum_{j=1}^n y_iy_j \alpha_i \alpha_j (x_i \cdot x_j)$</p>
+</li>
+<li>
+<p>这里将原先的线性SVM内积换成核函数$K(x_i, x_j)$</p>
+</li>
+</ul>
+<p>得到代入核函数的内积</p>
+<ul>
+<li>$L(\alpha) = \sum_{i = 1}^n\alpha_i -  \frac{1}{2}\sum_{i=1}^n\sum_{j=1}^n y_iy_j \alpha_i \alpha_j (K(x_i, x_j))$</li>
+</ul>
+<p>使得$\alpha_i \geq 0,\ 1\leq i \leq n$成立;</p>
+<p>以及 $\sum_{i = 1}^n \alpha_i y_i = 0$</p>
+<p>最终我们的分类函数可以表示为:</p>
+<p>$f(x) = \sum_{i = 1}^n\alpha_i^* y_i K(x_i, x) + b^*$</p>
+<p>为了能够更快求解Kernel-product, 我们对于给定的函数$k: X^2 \to K$, 以及原空间的向量模式$(x_1,&hellip;,x_n)\in X$</p>
+<p>Gram矩阵$K_{ij} = k(x_i,x_j)$(内积矩阵)</p>
+<p>于是就可以更快求解上面的目标式。</p>
+<p>常用的核函数</p>
+<ul>
+<li>
+<p>高斯核函数 $k(x,x&rsquo;) = e^{-\frac{|x-x&rsquo;|^2}{2\sigma^2}}$</p>
+</li>
+<li>
+<p>多项式核函数 $k(x,x&rsquo;) = (x \cdot x&rsquo; + c)^d$</p>
+</li>
+</ul>
+<ol start="7">
+<li>MLP 多层感知机/Feed Forward networks</li>
+</ol>
+<p>MLP的结构:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="./ml-notes/nn.png" alt="nn" />
+      
+    </figure>
+</p>
+<ul>
+<li>输入层</li>
+<li>隐层</li>
+<li>输出层</li>
+</ul>
+<p>特点:</p>
+<ul>
+<li>
+<p>输入层大小为输入向量的维数</p>
+</li>
+<li>
+<p>隐层之间的神经元是全连接的</p>
+</li>
+<li>
+<p>隐层神经元的激活函数是非线性的</p>
+</li>
+<li>
+<p>对于网络中的第j个神经元而言, 它所收到的响应为 $net_j = \sum_{i = 1}^d w_{ji} x_i + w_{j0} = \sum_{i = 0}^d w_{ji} x_i = w_j^T \cdot x$</p>
+</li>
+<li>
+<p>因此, 第j个神经元的输出就是$y_j = g(net_j)$</p>
+</li>
+<li>
+<p>对于输出层的第$k$个神经元, 它的信号相应就是$net_k = \sum_{j = 1}^{n_H} w_{kj} y_j + w_{k0} = \sum_{j=0}^{n_H}w_{kj} y_j = w^T_k \cdot y$</p>
+</li>
+<li>
+<p>最终对于标签分类为$k$的输出就是$y_k = f(net_k) = f(w^T_k \cdot y) = f(\sum_{j = 0}^{n_H} w_{kj} f(net_j)) = f(\sum_{j = 0}^{nH} w_{kj} f(\sum_{i = 0}^d w_{ji} x_i))$</p>
+</li>
+<li>
+<p>对于二分类问题而言, $y_k \in {1, -1}$</p>
+</li>
+<li>
+<p>对于多分类问题, $y_k = f(net_k) = g_k(x)$</p>
+</li>
+</ul>
+<hr>
+<p>MLP采用的不同Loss function</p>
+<ul>
+<li>SSE Sum of Squared Loss</li>
+</ul>
+<blockquote>
+<p>物理意义上, 就是实际输出与我们预测的输出之间的方差</p></blockquote>
+<p>$$
+E(w) = \frac{1}{2} \sum_{n = 1}^N (y(w, x_n) - t_n)^2
+$$</p>
+<ul>
+<li>概率上的解释: 网络输出给出了一种概率上的分布, 使用概率的好处 1. 可以引入非线性 2. 更多的loss选择</li>
+</ul>
+<p>从概率论的角度分析</p>
+<p>NN学习到的是一个关于输出变量$t$的概率分布</p>
+<p>$P(t|w, x) = N(t| y(w,x), \beta^{-1})$</p>
+<ul>
+<li>假设初始的输入数据$x$关于输出标签$t$的取值是一个高斯分布, 期望$\mu = y(w,x)$ 方差为$\beta^{-1}$</li>
+</ul>
+<p>假设我们的输入是独立同分布的, 那么对于所有的标签$t=(t_n)_{n=1}^N$
+我们列出似然函数</p>
+<p>$P(t|w,x,\beta) = \Pi_{n=1}^n P(t_n|w,x_n, \beta)$</p>
+<p>$P(t_n | w, x_n, \beta) = \frac{\beta}{\sqrt 2\pi} exp(\frac{-\beta}{2}(t_n - y(w,x_n)^2))$</p>
+<p>对数似然函数就是
+$L = \sum_{n=1}^N ln(P(t_n | w,x_n,\beta)) =\frac{N}{2}(ln\beta - ln 2\pi) - \frac{\beta}{2}(y(w,x_n) - t_n)^2 $</p>
+<p>让对数似然函数最大 <strong>等价于</strong> 让 $\frac{\beta}{2}(y(w,x_n) - t_n)^2$ 最小化,正好就是平方误差SSE最小化!</p>
+<blockquote>
+<p>因此从概率角度我们发现概率最大 == 误差最小, 可以转变为一个学习概率分布的问题</p></blockquote>
+<hr>
+<p>使用的误差函数有:</p>
+<p>Cross-Entrophy Loss 交叉熵</p>
+<p>对于一个二分类问题而言</p>
+<p>$t$是输出变量;</p>
+<ul>
+<li>$t = 1$对于$C1$;</li>
+<li>$t = 0$对于$C2$;</li>
+</ul>
+<p>网络有单个输出, 输出激活函数是</p>
+<p>$$
+y = \sigma(a) = \frac{1}{1 + e^{-a}}
+$$</p>
+<p>那么输出为$t$的概率是:
+$$
+P(t|X, w) = y(x, W)^t (1 - y(x, W))^{1 - t}
+$$</p>
+<p>相应的误差函数</p>
+<p>$$
+E(w) = -\sum_{n = 1}^N{t_n ln y_n + (1 - t_n) ln(1 - y_n) }
+$$</p>
+<p>K分类 输出激活函数为 logistic函数</p>
+<ul>
+<li>输出标签值为$t$的概率就是
+$$
+P(t|w,x) = \Pi_{k=1}^K y_k(w,x)^{t_k} (1 - y_k(w, x))^{1 - t_k}
+$$</li>
+</ul>
+<p>对应的损失函数
+$$
+E(w) = -\sum_{n=1}^N\sum_{k=1}^K{t_{nk} ln y_{nk} + (1 - t_{nk}) ln (1 - y_{nk})}
+$$</p>
+<p>1-of-K coding</p>
+<ul>
+<li>不断地用二分类的方式区分标签值为k的概率与非k的概率</li>
+<li>输出$y_k$的概率公式: $y_k(w,x) = \frac{exp(a_k(w,x))}{\sum_j exp(a_j(w,x))}$</li>
+</ul>
+<hr>
+<p>多层感知机的BP算法</p>
+<ul>
+<li>
+<p>Error BackPropagation</p>
+</li>
+<li>
+<p>从隐藏层到输出层的学习</p>
+</li>
+</ul>
+<p>由于输出层 第$k$个单元的响应为</p>
+<p>$net_k = \sum_{j=0}^{n_H} w_{kj} y_j$</p>
+<p>所以对于给定的$E(w)$, 关于隐层到输出层系数的梯度</p>
+<p>$$
+\frac{\partial E}{\partial w_{kj}} = \frac{\partial E}{\partial net_k}
+\frac{\partial net_k}{\partial w_{kj}}
+= -\delta_{k} \frac{\partial net_k}{\partial w_{kj}}
+$$</p>
+<ul>
+<li>$\delta_k$是第$k$个单元的sensitivity(敏感度)</li>
+</ul>
+<p>假设激活函数f是可微分的</p>
+<p>$$
+\delta_k = \frac{\partial E}{\partial net_k}
+= \frac{\partial E}{\partial y_k}
+\frac{\partial y_k}{\partial net_k}
+=(t_k - y_k) f&rsquo;(net_k)
+$$</p>
+<p>(因为这里的误差函数就是SSE)</p>
+<p>又因为 $net_k = w_{kj}^T \cdot y_j$
+所以$\frac{\partial net_k}{\partial w_{kj}} = y_j$</p>
+<p>最终得到隐层-输出层的梯度学习规则</p>
+<p>$$
+\Delta_{kj} = \eta \delta_k y_j
+= \eta (t_k - y_k) f&rsquo;(net_k) y_j
+$$</p>
+<p>其中$\eta$是我们定义的学习率</p>
+<ul>
+<li>从输入层到隐藏层的学习</li>
+</ul>
+<p>第$j$个神经元的响应$net_j = \sum_{i=0}^d w_{ji}x_i$</p>
+<p>而根据我们的结构, 可以列出以下的梯度关系
+$$
+\frac{\partial E}{\partial w_{ji}}
+= \frac{\partial E}{\partial y_j}
+\frac{\partial y_j}{\partial net_j}
+\frac{\partial net_j}{\partial w_{ji}}
+$$</p>
+<p>由于 $\frac{\partial net_j}{\partial w_{ji}} = x_i$
+以及 $\frac{\partial y_j}{\partial net_j} = f&rsquo;(net_j)$</p>
+<p>还有误差函数关于输出y的导数
+$$
+\frac{\partial E}{\partial y_j}
+= \frac{\partial}{\partial y_j}[\frac{1}{2}\sum_{k=1}^c (t_k - y_k)^2]
+= -\sum_{k=1}^c(t_k-y_k) \frac{\partial y_k}{y_j}
+= -\sum_{k=1}^c(t_k-y_k) \frac{\partial y_k}{net_k} \frac{\partial net_k}{y_j}
+=  -\sum_{k=1}^c(t_k-y_k) f&rsquo;(net_k) w_{kj}
+$$</p>
+<p>类似的我们定义一个隐层单元的敏感度
+$\delta_j = f&rsquo;(net_j) \sum_{k=1}^c w_{kj} \delta_k$</p>
+<p>那么对于输入层-隐层的学习规则我们得到</p>
+<p>$$
+\Delta w_{ji} = \eta \delta_j x_i = \eta f&rsquo;(net_j) [\sum_{k=1}^c w_{kj}\delta_k] x_i
+$$</p>
+<hr>
+<p>MLP在实际应用中需要考虑的问题</p>
+<ol>
+<li>
+<p>激活函数的选择: 非线性/线性, 单调性, 连续性</p>
+</li>
+<li>
+<p>隐层的神经元数量 $n_H \to n/10$</p>
+</li>
+<li>
+<p>初始网络的权重</p>
+</li>
+<li>
+<p>学习率大小$\eta = 0.1$</p>
+</li>
+<li>
+<p>权重的衰减</p>
+</li>
+<li>
+<p>隐层的数量</p>
+</li>
+<li>
+<p>目标函数的选择</p>
+</li>
+</ol>
+
+
+<h2 class="relative group">回归算法整理 
+    <div id="%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">1. Linear Regression 
+    <div id="1-linear-regression" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-linear-regression" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>输入: 训练数据集$T = {(x_1,y_1), &hellip;, (x_n, y_n)}$</p>
+<p>输出: regression-function 回归函数 $y = f(w,x) = w^Tx + b$</p>
+<p>目标: 最小化误差函数 例如MSE, $min_w E(w) = \frac{1}{n} |y(w,x) - y|^2$</p>
+<p>找到的最优参数 $w^* = argmin_{w}\sum_{i=1}^n(y(w,x) - y)^2$</p>
+<p>寻找最优参数的方法:</p>
+<ol>
+<li>
+<p>SGD 随机梯度下降;</p>
+</li>
+<li>
+<p>解析法: 最小二乘解$(X^TX)^{-1}X^Ty$</p>
+</li>
+</ol>
+
+
+<h3 class="relative group">2. Lasso, Ridge 
+    <div id="2-lasso-ridge" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-lasso-ridge" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>Ridge</p>
+<p>目标: 最小化误差函数 $L = \sum_{i=1}^n (y_i - w^Tx_i)^2 + \lambda ||w||^2$</p>
+<ul>
+<li>$w^* = argmin_w (\sum_{i=1}^n (y_i - w^Tx_i)^2 + \lambda ||w||^2)$</li>
+</ul>
+<p>解析算出的最优解$\boldsymbol{w} = (X^TX + \lambda I)^{-1} X^T y$ 或者用SGD</p>
+<p>Lasso</p>
+<p>目标: 最小化误差函数 $L = \sum_{i=1}^n (y_i - w^Tx_i)^2 + \lambda ||w||_1$</p>
+<ul>
+<li>最优参数 $w^* = argmin_w (\sum_{i=1}^n (y_i - w^Tx_i)^2 + \lambda ||w||_1)$</li>
+</ul>
+<p>注意次数我们不能通过求导数的方式得到最优解 需要用 坐标下降的方法</p>
+<ul>
+<li>随机初始化系数 $\boldsymbol{w}$</li>
+<li>遍历各个维度的$w_i$, 固定其余的$w_j, (i \neq j)$, 将$w_i$视为变量求出最优解</li>
+<li>迭代上一个步骤直到各个维度的参数都不变化(或者达到最大迭代次数)</li>
+</ul>
+
+
+<h3 class="relative group">3. SVR 
+    <div id="3-svr" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-svr" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>SVR是SVM的一个重要应用.</p>
+<ul>
+<li>SVR所寻找的最优hyper-plane目标是 &ldquo;使得所有的样本点距离超平面的偏差最小&rdquo;</li>
+</ul>
+<p>{% asset_img svm.png &ldquo;SVM/SVR图示&rdquo; %}</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="./ml-notes/svm.jpg" alt="svm" />
+      <figcaption>SVM/SVR图示</figcaption>
+    </figure>
+</p>
+
+
+<h4 class="relative group">线性SVR 
+    <div id="%E7%BA%BF%E6%80%A7svr" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%BA%BF%E6%80%A7svr" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>输入: $T = {(x_1,y_1), &hellip;, (x_n,y_n) }$</p>
+<p>输出: 回归预测结果$\hat y = (w^Tx + b)$</p>
+<p>模型: 线性回归函数$y(w,b) = w^Tx + b$</p>
+<p>目标函数:</p>
+<p>这里是两边采用了不同的松弛程度($\xi, \xi^{\star}$)</p>
+<p>$$
+min_{w,b,\xi} \frac{1}{2} ||w||^2 + C \sum_i (\xi_i+ \xi_i^*) \
+s.t.\ y_i - (w^Tx_i + b) \leq \epsilon + \xi_i \
+(w^Tx_i + b) - y_i \leq \epsilon + \xi_i^{\star}
+\xi_i, \xi_i^{\star} \geq 0,\ i = 1,2,&hellip;,n
+$$</p>
+<p>损失函数: 0-1 Loss =&gt; 代理损失函数 surrogate loss</p>
+<ul>
+<li>hinge_loss: $l(z) = max(0, 1 - z)$</li>
+<li>指数损失</li>
+<li>对数损失</li>
+</ul>
+<p>以线性SVR, 两边的误差间距不一样的情况为例, 求解其对偶问题</p>
+<p>因为我们引入了4个约束条件, 所以引入4个乘子$\mu_i, \mu_i^{\star}, \alpha_i, \alpha_i^{\star}$</p>
+<p>$$
+L(w,b,\alpha,\alpha^{\star},\xi,\xi^{\star},\mu,\mu^{\star})
+= \frac{1}{2} |w|^2 + C\sum_{i=1}^m(\xi_i + \xi_i^*) - \sum_{i=1}^m \mu_i \xi_i - \sum_{i=1}^m \mu_i^{\star} \xi_i^{\star} + \sum_{i=1}^m(\alpha_i ((w^Tx_i + b) - y_i - \epsilon - \xi_i)) + \sum_{i=1}^m \alpha_i^{\star} ((w^Tx_i + b) - y_i - \epsilon - \xi_i^{\star})
+$$</p>
+<p>再去求解拉格朗日乘数函数的最小值: $L$是凸优化问题, 求解偏导数等于0</p>
+<p>得到
+$$
+w = 1 \
+0 = \sum_{i=1}^m(\alpha_i^{\star} - \alpha_i) \
+C = \alpha_i + \mu_i \
+C = \alpha_i^{\star} + \mu_i^{\star} \
+$$</p>
+
+
+<h4 class="relative group">拉格朗日对偶性 
+    <div id="%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%AF%B9%E5%81%B6%E6%80%A7" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%AF%B9%E5%81%B6%E6%80%A7" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>$$
+min f(x) \
+s.t.\ c_i(x) \leq 0\ i = 1,2,&hellip;,k (k个约束条件) \
+h_j(x) = 0,\ j = 1,2,&hellip;,l (l个约束条件)
+$$</p>
+<p>引入广义的的拉格朗日函数(对于约束分别引入乘数项)</p>
+<p>$L(x,\alpha, \beta) = f(x) + \sum_{i=1}^k \alpha_i c_i(x) + \sum_{j=1}^l \beta_j h_j(x) $</p>
+<p>考虑关于$x$的函数: $\Theta_p(x) = max_{\alpha,\beta,\alpha_i \geq 0} L(x, \alpha, \beta)$</p>
+<p>那么如果$x$可以满足约束, 那么$\Theta_p(x) = f(x)$</p>
+<p>否则必然存在某个约束条件不满足, 取相应的系数$\alpha_i$或者$\beta_j$使其取到$\inf$, 那么$\Theta_p(x) = +\inf$</p>
+<p>所以我们考虑关于$\Theta_P(x)$的极小化问题
+$$
+min_x \Theta_P(x) = min_x max_{\alpha, \beta, \alpha_i \geq 0} L(x, \alpha, \beta)
+$$</p>
+<p>它与原始问题$min_{x\in R} f(x)$是等价的, 所以我们把原始问题的最优化问题表示为了拉格朗日函数的极小-极大问题;</p>
+<p>$p^{\star} = min_x \Theta_P(x)$ 也就是原问题的值.</p>
+<p>对偶问题: $\Theta_D(\alpha, \beta) = min_x L(x,\alpha, \beta)$</p>
+<p>极大化对偶问题等价于 $max_{\alpha,\beta,\alpha_i \geq 0} min_x L(x,\alpha, \beta)$ 就是拉格朗日函数的 极大-极小问题;</p>
+<p>对偶问题的值 $d^{\star} = max_{\alpha,\beta,\alpha_i \geq 0} \Theta_D(\alpha, \beta)$</p>
+<p>考虑原始问题与对偶问题的关系, 可以发现$d^{\star} \leq p^{\star}$</p>
+<p>在满足上述所有的条件的解,成立 $d^{\star} = p^{\star}$</p>
+<p>于是就完成了原问题(min) 到 拉格朗日问题(min-max) 再到 拉格朗日对偶问题(max-min)的转化.</p>
+<p>补充:</p>
+<p>KKT条件</p>
+<ol>
+<li>$\frac{\partial L}{\partial x} = 0$</li>
+<li>$\alpha_i^{\star} c_i(x^{\star}) = 0$</li>
+<li>$c_i(x^{\star}) \leq 0$</li>
+<li>$\alpha_i^{\star} \geq 0$</li>
+<li>$h_j(x^{\star}) = 0$</li>
+</ol>
+
+
+<h3 class="relative group">4. LDA() 
+    <div id="4-lda" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-lda" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>问题：需要进行输入变量的投影(eg 从高维度输入转为一个低维度，必然会丢失一些特征)</p>
+<p>例如以下的线性映射:</p>
+<p>$x\in R^d \to y \in R,\ y = w^Tx$</p>
+<ul>
+<li>选择一个最好的权重$w$使得投影后的结果能最大限度区分不同类别。</li>
+</ul>
+<p>考虑一个二分类的问题</p>
+<p>$N_1, C_1$, $N_2, C_2$为两类的点数和类别的输出；</p>
+<p>那么在原始空间的平均值向量</p>
+<p>$$
+m_k = \frac{1}{N_k}\sum_{i\in C_k} x_i
+$$</p>
+<p>在投影空间的平均值向量
+$$
+\mu_k = \frac{1}{N_k}\sum_{i\in C_k}w^T x_i
+$$</p>
+<p>那么为了区分类别，我们需要可以区分投影后类别的均值，于是我们希望最大化均值之间的绝对差值</p>
+<p>$$\mu_2 - \mu_1 = w^T(m_2 - m_1)$$</p>
+<p>又有问题: $w$的选取随机性很大</p>
+<ul>
+<li>解决: 单位长度 $||w|| = 1$</li>
+<li>通过lagrange乘数法进行约束条件下的最大化求解$w$, 于是我们可以求出$w$</li>
+</ul>
+<p><strong>Fisher Linear Discriminant</strong></p>
+<p>希望在两类的均值差值大的情况下, 让一个类内部的分布更可能集中(方差小)</p>
+<ul>
+<li>
+<p>类间均值差距 $\mu_2 - \mu_1$</p>
+</li>
+<li>
+<p>类内方差 $\sum_{i\in C_1}(w^Tx_i - \mu_1)(w^Tx_i - \mu_1)^T + \sum_{i\in C_2}(w^Tx_i - \mu_2)(w^Tx_i - \mu_2)^T = \sigma_1 + \sigma_2$</p>
+</li>
+<li>
+<p>Fisher Linear Discriminant目标函数 $J(w) = \frac{(\mu_2 - \mu_1)^2}{\sigma_1 + \sigma_2}$</p>
+</li>
+</ul>
+<p>$$
+J(w) = \frac{w^TS_Bw}{w^TS_ww}
+$$
+其中$S_B$为类间散度矩阵, $S_w$为类内散度矩阵</p>
+<p>$S_B = (m_2 - m_1)(m_2-m_1)^T$, $S_w=\sum_k\sum_{i\in C_k} (x_i - m_k)(x_i - m_k)^T$</p>
+
+
+<h3 class="relative group">5. Polynomial regression 
+    <div id="5-polynomial-regression" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-polynomial-regression" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol start="6">
+<li>Radix-Based Regression 基向量(分量)</li>
+</ol>
+<hr>
+<p>其他:</p>
+<p>Least-Square Error的问题</p>
+<ul>
+<li>
+<p>样本分布问题=&gt;扰动很大</p>
+</li>
+<li>
+<p>Least squares corresponds to maximum likelihood under the
+assumption of a Gaussian conditional distribution.</p>
+</li>
+</ul>
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\/2022\/ml-notes\/index.md"
+        var oid_likes = "likes_posts\/2022\/ml-notes\/index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/posts/2023/tea/tea-1022/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >下午茶 1017-1022</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-10-17T22:42:18&#43;00:00">2022 年 10 月 17 日</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/2022/svm-svr/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >支持向量机/向量机回归总结(SVM-SVR)</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-11-06T10:08:45&#43;00:00">2022 年 11 月 6 日</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="返回顶部" title="返回顶部">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="Tags">
+            
+            Tags
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
+            title="Categories">
+            
+            Categories
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2025
+      ck_doge
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a> 强力驱动
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://chalkydoge.github.io/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="搜索"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="关闭 (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

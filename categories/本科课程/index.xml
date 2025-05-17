@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>本科课程 on 我的主页</title>
+    <link>https://chalkydoge.github.io/categories/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/</link>
+    <description>Recent content in 本科课程 on 我的主页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>903437468@qq.com (ck_doge)</managingEditor>
+    <webMaster>903437468@qq.com (ck_doge)</webMaster>
+    <copyright>© 2025 ck_doge</copyright>
+    <lastBuildDate>Thu, 15 Dec 2022 14:58:28 +0000</lastBuildDate><atom:link href="https://chalkydoge.github.io/categories/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>期末考试复习(开卷)</title>
+      <link>https://chalkydoge.github.io/posts/2022/ml-final/</link>
+      <pubDate>Thu, 15 Dec 2022 14:58:28 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2022/ml-final/</guid>
+      <description>&lt;p&gt;CNN,RNN, Transformer原理; 无监督学习&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>卷积神经网络总结 CNN</title>
+      <link>https://chalkydoge.github.io/posts/2022/ml-cnn/</link>
+      <pubDate>Sun, 04 Dec 2022 22:35:36 +0000</pubDate>
+      <author>903437468@qq.com (ck_doge)</author>
+      <guid>https://chalkydoge.github.io/posts/2022/ml-cnn/</guid>
+      <description>&lt;p&gt;CNN作业记录, 准备试用一下LaTex模板~&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
