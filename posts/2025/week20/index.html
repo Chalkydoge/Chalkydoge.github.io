@@ -102,7 +102,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "16"
+    "wordCount": "227"
   }]
   </script>
 
@@ -581,7 +581,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-17T15:02:28&#43;08:00">2025 年 5 月 17 日</time><span class="px-2 text-primary-500">&middot;</span><span>16 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2025-05-17T15:02:28&#43;08:00">2025 年 5 月 17 日</time><span class="px-2 text-primary-500">&middot;</span><span>227 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
   
 
   
@@ -703,23 +703,403 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>
+          
 
-\(f(a,b,c) = (a^2+b^2+c^2)^3\)</p>
-<p>从hexo基本全部迁过来了</p>
-<p>数学公式有点不太对劲，要全部换掉格式了
-只要在md的页面上加这个就行, <a href="https://blowfish.page/zh-cn/samples/mathematical-notation/" target="_blank">REF</a></p>
+<p>终于！搬运工作结束了！之前的随笔记录基本上都从hexo迁过来了！</p>
+<p>吐槽一下：之前的数学公式有点不太对劲，要全部换掉格式了
+虽然说只要在md的页面上加这个就行, <a href="https://blowfish.page/zh-cn/samples/mathematical-notation/" target="_blank">REF</a></p>
 <ul>
-<li>原来都是<code>$ ... $</code>的格式，现在是<code>\\( ... \\)</code>的格式了</li>
+<li>原来inline都是<code>$ ... $</code>的格式，现在是<code>\\( ... \\)</code>的格式了</li>
 </ul>
-<div class="mermaid" align="center">
+
+
+<h1 class="relative group">本周简单的总结一下 因为好像差不多一个月没有更新过了www 
+    <div id="%E6%9C%AC%E5%91%A8%E7%AE%80%E5%8D%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B-%E5%9B%A0%E4%B8%BA%E5%A5%BD%E5%83%8F%E5%B7%AE%E4%B8%8D%E5%A4%9A%E4%B8%80%E4%B8%AA%E6%9C%88%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E8%BF%87%E4%BA%86www" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%9C%AC%E5%91%A8%E7%AE%80%E5%8D%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B-%E5%9B%A0%E4%B8%BA%E5%A5%BD%E5%83%8F%E5%B7%AE%E4%B8%8D%E5%A4%9A%E4%B8%80%E4%B8%AA%E6%9C%88%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E8%BF%87%E4%BA%86www" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+<p>主要总结一下论文画图相关的总结还有经验（仅供参考，不全对ooo</p>
+
+
+<h1 class="relative group">总结一下(糊)论文的方法 
+    <div id="%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E7%B3%8A%E8%AE%BA%E6%96%87%E7%9A%84%E6%96%B9%E6%B3%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E7%B3%8A%E8%AE%BA%E6%96%87%E7%9A%84%E6%96%B9%E6%B3%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+<blockquote>
+<p>写在前面 当时的场景是5/1小长假里面速通论文 5/7日晚上就要交了，所以质量必然高不了的</p></blockquote>
+<blockquote>
+<p>同时，因为是网络领域的会议，写作方法肯定和主流的<strong>AI会议</strong>不太一样，所以仅供参考 <code>:)</code></p></blockquote>
+
+
+<h2 class="relative group">AI会的Paper be like: 
+    <div id="ai%E4%BC%9A%E7%9A%84paper-be-like" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ai%E4%BC%9A%E7%9A%84paper-be-like" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>
+<p>拉上一堆作者 <code>**+</code>(无贬义)</p>
+</li>
+<li>
+<p>对话框 + 图形</p>
+</li>
+<li>
+<p>炫酷的<strong>emoji</strong> + LLM<strong>各种图标</strong> + 色彩轰炸(存疑)</p>
+</li>
+<li>
+<p><strong>超绝大表格</strong> 各种sota横向对比</p>
+</li>
+<li>
+<p>消融实验：为什么我们的<strong>贼jb</strong>厉害，薄纱现有的框架</p>
+</li>
+<li>
+<p>具体原理是基本木有的/数学公式写出来<strong>不是让人看懂</strong>的(?)
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/2025/week20/agent_paper_hu_517b3c5dae6afa1e.jpg 330w,
+        /posts/2025/week20/agent_paper_hu_7aa9a7dc81d103df.jpg 660w,
+        /posts/2025/week20/agent_paper_hu_b190819fa37b5f86.jpg 1024w,
+        /posts/2025/week20/agent_paper_hu_2475fcaa65ecac76.jpg 2x"
+        data-zoom-src="/posts/2025/week20/agent_paper_hu_2475fcaa65ecac76.jpg"
+        src="/posts/2025/week20/agent_paper_hu_7aa9a7dc81d103df.jpg"
+        alt="AI会议"
+      />
+      
+    </figure>
+
+👆xhs上面偷的一张图 很好的概括了</p>
+</li>
+</ul>
+
+
+<h2 class="relative group">回到网络会议 
+    <div id="%E5%9B%9E%E5%88%B0%E7%BD%91%E7%BB%9C%E4%BC%9A%E8%AE%AE" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%9B%9E%E5%88%B0%E7%BD%91%E7%BB%9C%E4%BC%9A%E8%AE%AE" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">要点1 
+    <div id="%E8%A6%81%E7%82%B91" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%A6%81%E7%82%B91" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>Abstract准确精炼，5句话最多了</p>
+
+
+<h3 class="relative group">要点2 
+    <div id="%E8%A6%81%E7%82%B92" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%A6%81%E7%82%B92" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>Intro前面快速切入主题，最后点出本文贡献</p>
+
+
+<h3 class="relative group">要点3 
+    <div id="%E8%A6%81%E7%82%B93" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%A6%81%E7%82%B93" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>模块设计图要够大 够清晰；</li>
+<li>考虑配色和图形对比（色相对比 or 直曲对比 or 形状对比）</li>
+</ul>
+
+
+<h3 class="relative group">要点4 
+    <div id="%E8%A6%81%E7%82%B94" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%A6%81%E7%82%B94" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>论文的结构要清晰，尤其是对比实验的部分</p>
+<p>实验图清晰易懂</p>
+
+
+<h3 class="relative group">Findings 
+    <div id="findings" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#findings" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p>conclusion随便写因为不重要，约等于复述摘要</p>
+</li>
+<li>
+<p>reference部分的格式</p>
+</li>
+</ul>
+
+
+<h2 class="relative group">问题1: 怎么画论文图呢 
+    <div id="%E9%97%AE%E9%A2%981-%E6%80%8E%E4%B9%88%E7%94%BB%E8%AE%BA%E6%96%87%E5%9B%BE%E5%91%A2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%97%AE%E9%A2%981-%E6%80%8E%E4%B9%88%E7%94%BB%E8%AE%BA%E6%96%87%E5%9B%BE%E5%91%A2" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">工具使用 
+    <div id="%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>省流；最简单的方法就是有请<strong>Claude 3.7/ChatGPT</strong>帮你画图</p>
+<p>人工方法：直接用<code>drawio</code>画 / <code>PPT</code>其实也不错
+（但是记得都要导出为pdf格式 且dpi像素要至少300以上）</p>
+
+
+<h3 class="relative group">图片数量 
+    <div id="%E5%9B%BE%E7%89%87%E6%95%B0%E9%87%8F" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%9B%BE%E7%89%87%E6%95%B0%E9%87%8F" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>背景部分1张 + (一般是会涉及到系统的实现)1张overview图 <strong>(关键)</strong> + 系统里面的各个小模块图(n个) + 实验图(m个) + 实验表格</p>
+<ul>
+<li>
+<p>实验图的部分和前面的模块图分开来解释，因为实验图基本上就是和测量的数据强相关的，只需要能够表达出 系统的关键<strong>指标的变化</strong> 和 <strong>对比其他实现的提升幅度</strong> / <strong>特殊情况下为什么会下降</strong> 就可以的。</p>
+</li>
+<li>
+<p><code>matplotlib</code>全家桶 + 基本的折线 / 柱状图 / 散点图 / subplots</p>
+</li>
+<li>
+<p>复合图形在同一张图上面（常见的是折线+柱状 / 折线+散点这样的）</p>
+</li>
+</ul>
+
+
+<h4 class="relative group">背景图 1张 
+    <div id="%E8%83%8C%E6%99%AF%E5%9B%BE-1%E5%BC%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%83%8C%E6%99%AF%E5%9B%BE-1%E5%BC%A0" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>关键性：⭐⭐⭐⭐</p>
+<p>论文背景除要在<strong>Introduction</strong>里面提到的内容，考虑到其实很多<strong>reviewer</strong>可能根本不懂你在做神魔，要尽量简单易懂就会偷懒<strong>先看图</strong>，而不会在意你在文章写了什么。</p>
+<p>因此背景图（background部分）就需要做一件事情：</p>
+<ul>
+<li>一个足够简单和清晰，但是有代表性的case 例子：我们的研究的具体应用是怎样的 （可以有1句话的图解在图片边上）</li>
+</ul>
+
+
+<h4 class="relative group">Overview图 1张 
+    <div id="overview%E5%9B%BE-1%E5%BC%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#overview%E5%9B%BE-1%E5%BC%A0" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>关键性：⭐⭐⭐⭐⭐</p>
+<p>内容需要完整的表达出系统的设计思路和实现的关键点（就是你 <strong>做了什么</strong>）</p>
+<ol>
+<li>
+<p><code>FRAMEWORK TITLE</code> 超大的好吧</p>
+</li>
+<li>
+<p><code>SUB BLOCKS</code> 加粗</p>
+</li>
+<li>
+<p>多用<code>箭头</code> 状态转移 / 流程 非常清晰，能够看到处理顺序 / 数据的流向</p>
+</li>
+</ol>
+<p>粒度划分：</p>
+<ul>
+<li>系统构成分块（模块化）（大）：<strong>宏观</strong>认知，边界清晰，够抽象</li>
+<li>各个模块的功能（中） ：对于具体细节的<strong>概括</strong>，精炼</li>
+<li>关键功能的实现细节 （小） 具体例子：你的<strong>算法</strong> / 用了什么工程设计<strong>技巧</strong> / 可以细一点，但是<strong>不要每个都细</strong></li>
+</ul>
+<p>这样我第一眼就能够明白 做了大概是什么东西，涉及了哪些模块，亮点会在系统什么模块的什么部分</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/2025/week20/method_example_hu_f5bf8c01267865fa.png 330w,
+        /posts/2025/week20/method_example_hu_a7c5d491180a116.png 660w,
+        /posts/2025/week20/method_example_hu_73c44881d00f103f.png 1024w,
+        /posts/2025/week20/method_example_hu_7392888cd808eaf0.png 2x"
+        data-zoom-src="/posts/2025/week20/method_example_hu_7392888cd808eaf0.png"
+        src="/posts/2025/week20/method_example_hu_a7c5d491180a116.png"
+        alt="一个例子"
+      />
+      
+    </figure>
+</p>
+<p>👆 这个例子里，我能够看到的是<strong>阶段分割</strong> （训练 + 推理）
+然后训练里面 好像是参考 经过了什么编码 + 风格的色块 / 内容色块（大概是风格知识 / 内容知识）
+经过的是UNET（虽然我不知道内部会发生什么）</p>
+<p>然后参数上面能够看出编码器是<strong>冻结的</strong>（固定），但是红色的风格构成模块是<strong>可变的</strong>（对比色）
+最后我得到了目标的什么东西</p>
+<p>那么我就知道了 这篇文章的大概贡献都在<code>Q-Former</code>这个模块里面</p>
+<p>推理也是类似的，但是感觉是为了<strong>完整性</strong>才放上来的。
+（上面的分析全是我自己瞎猜的，我根本不会AI orz）</p>
+
+
+<h4 class="relative group">小模块图 n张（取决于你想要展开哪些部分） 
+    <div id="%E5%B0%8F%E6%A8%A1%E5%9D%97%E5%9B%BE-n%E5%BC%A0%E5%8F%96%E5%86%B3%E4%BA%8E%E4%BD%A0%E6%83%B3%E8%A6%81%E5%B1%95%E5%BC%80%E5%93%AA%E4%BA%9B%E9%83%A8%E5%88%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B0%8F%E6%A8%A1%E5%9D%97%E5%9B%BE-n%E5%BC%A0%E5%8F%96%E5%86%B3%E4%BA%8E%E4%BD%A0%E6%83%B3%E8%A6%81%E5%B1%95%E5%BC%80%E5%93%AA%E4%BA%9B%E9%83%A8%E5%88%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>关键性：⭐⭐⭐</p>
+<blockquote>
+<p>focus on 细节 和 <strong>值得关注</strong>的tricks / 技巧 / 算法思想点</p></blockquote>
+<p><strong>(可能是一个反面例子)</strong></p>
+<p>这是我随手画的一个反面例子，对于大部分没有接触过领域知识的人来说，可能就只能get到的信息量有：</p>
+<ul>
+<li>
+<p>输入被变成了一个vector</p>
+</li>
+<li>
+<p>还有一部分的vector从什么地方抽取过来</p>
+</li>
+<li>
+<p>经过了一个aggergate的操作</p>
+</li>
+<li>
+<p>经过了一个Regressor</p>
+</li>
+<li>
+<p>输出了一个结果 \(X \% \)
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/2025/week20/module_design_hu_7c38b8dc619fa6aa.jpg 330w,
+        /posts/2025/week20/module_design_hu_6311894c35c824c8.jpg 660w,
+        /posts/2025/week20/module_design_hu_c2a65cf5df0d47bf.jpg 1024w,
+        /posts/2025/week20/module_design_hu_cd33a9dcc6cdb2e8.jpg 2x"
+        data-zoom-src="/posts/2025/week20/module_design_hu_cd33a9dcc6cdb2e8.jpg"
+        src="/posts/2025/week20/module_design_hu_6311894c35c824c8.jpg"
+        alt="一个例子"
+      />
+      
+    </figure>
+</p>
+</li>
+</ul>
+<p>但是其实内部的一些技巧都没有展示出来：</p>
+<ul>
+<li>vector的具体含义是什么（内部构成是什么）</li>
+<li>additional的操作是什么 （怎么进行的向量合成呢？）</li>
+<li>expected node上的数据怎么被抽取的（实际上需要额外的metric系统，daemons）</li>
+<li>为什么需要GBR而不是采用别的模型呢？ GBR内部的设计是什么呢？</li>
+</ul>
+<p>这些其实都是<strong>缺失的</strong>，所以就会给人一种看不懂的感觉；</p>
+<p>反而是一些Prediction / Total这些组件其实<strong>可以省略</strong></p>
+<p><div class="mermaid" align="center">
   <pre>
 graph LR;
-A[Lemons]-->B[Lemonade];
-B-->C[Profit]
+A[向量是什么]-->A1[系统的什么指标];
+A[向量是什么]-->A2[指标含义和原理];
+
+
+A1[系统的什么指标]-->B[组合原理];
+A2[指标含义和原理]-->B[组合原理];
+
+B[组合原理]-->B1[组合方式];
+B[组合原理]-->B2[组合有效性];
+
+B1[组合方式]-->C[GBR的执行流程];
+B2[组合有效性]-->C[GBR的执行流程];
+
+C[GBR的执行流程]-->D[跳转到系统下游];
 </pre>
 </div>
 
+👆 重新拆解了一下</p>
+
+
+<h4 class="relative group">实验图 n张 
+    <div id="%E5%AE%9E%E9%AA%8C%E5%9B%BE-n%E5%BC%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%AE%9E%E9%AA%8C%E5%9B%BE-n%E5%BC%A0" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>关键性：⭐⭐</p>
+<p><strong>我相信只需要实验的结果足够多，这个图完全没有难度吧（纯数据驱动xs）</strong></p>
+<p>核心：你的方案是在太强了！！！ 薄纱所有其他人（就是这种感觉）就ok 🌶</p>
 
           
           
