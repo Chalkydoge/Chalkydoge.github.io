@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="light"
   data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.148.2">
+	<meta name="generator" content="Hugo 0.149.1">
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -31,8 +31,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3d98b0e3c7886b2be13facfb539c8f79843dd3cff84d1c41763deb363c668c308c7c7ac9ecb3923f8602e257866ff553de4228ff50492074acc6d07b3d232fb1.css"
-    integrity="sha512-PZiw48eIayvhP6z7U5yPeYQ908/4TRxBdj3rNjxmjDCMfHrJ7LOSP4YC4leGb/VT3kIo/1BJIHSsxtB7PSMvsQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.16a441115fe0d1c1f80c42f39f0b8b1f67fdc315e1d20b918f87ed6a60d8dfc371d68149ef045132caa1ef0d55ae76aaa0415494ea054ae53161796a950f695c.css"
+    integrity="sha512-FqRBEV/g0cH4DELznwuLH2f9wxXh0guRj4ftamDY38Nx1oFJ7wRRMsqh7w1VrnaqoEFUlOoFSuUxYXlqlQ9pXA==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -147,6 +147,29 @@
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAi2GHKNlto6s-rdoBDpq4dC6qr5nSVjPk",
+      authDomain: "AIzaSyAi2GHKNlto6s-rdoBDpq4dC6qr5nSVjPk",
+      projectId: "chalkydoge-blog",
+      storageBucket: "chalkydoge-blog.firebasestorage.app",
+      messagingSenderId: "267348615636",
+      appId: "1:267348615636:web:8599dbb62d328d2fd03641",
+      measurementId: "G-8R0XLT7VYK"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>
