@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.16a441115fe0d1c1f80c42f39f0b8b1f67fdc315e1d20b918f87ed6a60d8dfc371d68149ef045132caa1ef0d55ae76aaa0415494ea054ae53161796a950f695c.css"
-    integrity="sha512-FqRBEV/g0cH4DELznwuLH2f9wxXh0guRj4ftamDY38Nx1oFJ7wRRMsqh7w1VrnaqoEFUlOoFSuUxYXlqlQ9pXA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1d74f9d5dfa930459e826894f1887b49745df0c4f6a969991efa0dc3f6407f8c9f713b1bdbf7dbf2c41d12ec373162b36d02b1f386ec091637fb5eeae1b533ab.css"
+    integrity="sha512-HXT51d&#43;pMEWegmiU8Yh7SXRd8MT2qWmZHvoNw/ZAf4yfcTsb2/fb8sQdEuw3MWKzbQKx84bsCRY3&#43;17q4bUzqw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -43,8 +43,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f8f2cec11308434554dfdbe3a0963bc19265192ebb9e2d644f3f9250731c879dfb09b44d2d58fcd06e8a1c9051b57f594719b37d21689d366ffd2db050df40a0.js"
-    integrity="sha512-&#43;PLOwRMIQ0VU39vjoJY7wZJlGS67ni1kTz&#43;SUHMch537CbRNLVj80G6KHJBRtX9ZRxmzfSFonTZv/S2wUN9AoA==" data-copy="复制" data-copied="已复制"></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b4a150efe91e7637ae9e43db58573e9edc22632d31d0c46de1d479f673d6779f7e96d2bc832d01bf9002bbf1ef2014843d4176c9735c40d5e7605f0a63266eac.js"
+    integrity="sha512-tKFQ7&#43;kedjeunkPbWFc&#43;ntwiYy0x0MRt4dR59nPWd59&#43;ltK8gy0Bv5ACu/HvIBSEPUF2yXNcQNXnYF8KYyZurA==" data-copy="复制" data-copied="已复制"></script>
   
   
   
@@ -576,7 +576,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="ck_doge" src="/img/blowfish_logo_hu_e74a130226122ae3.png" />
+      alt="ck_doge" src="/img/blowfish_logo_hu_eb3d8322571b28ec.png" />
     
   
   <div class="place-self-center">
@@ -714,7 +714,7 @@
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define ll long long
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">maxn</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
@@ -722,12 +722,12 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// f[i][j][0/1]
 </span></span></span><span class="line"><span class="cl"><span class="c1">// 前i个数, 填了j个偶数, 末尾是偶数/奇数的最小对数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">f</span><span class="p">[</span><span class="mi">105</span><span class="p">][</span><span class="mi">105</span><span class="p">][</span><span class="mi">2</span><span class="p">];</span>
+</span></span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">f</span><span class="p">[</span><span class="mi">105</span><span class="p">][</span><span class="mi">105</span><span class="p">][</span><span class="mi">2</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// if: [i] = 0, could fill
 </span></span></span><span class="line"><span class="cl"><span class="c1">// f[i][j][0] &lt;- f[i - 1][j - 1][0] + 0, f[i - 1][j][1] + 1, 
 </span></span></span><span class="line"><span class="cl"><span class="c1">// f[i][j][1] &lt;- f[i - 1][j - 1][1] + 0, f[i - 1][j][0] + 1,
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
@@ -738,9 +738,9 @@
 </span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// number of evens
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="c1">// p[i] is even, or p[i] is 0 and filled even
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">                <span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">f</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">            <span class="p">}</span>
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
@@ -781,7 +781,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define ll long long
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define PII pair&lt;int,int&gt;
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
@@ -791,7 +791,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">PII</span> <span class="n">ans</span><span class="p">[</span><span class="mi">200050</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// a: new Pair, b: old Pair
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="nc">node</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">node</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">PII</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">node</span><span class="p">(</span><span class="n">PII</span> <span class="n">_a</span><span class="p">,</span> <span class="n">PII</span> <span class="n">_b</span><span class="p">)</span><span class="o">:</span> <span class="n">a</span><span class="p">(</span><span class="n">_a</span><span class="p">),</span> <span class="n">b</span><span class="p">(</span><span class="n">_b</span><span class="p">)</span> <span class="p">{}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
@@ -808,15 +808,15 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="k">auto</span><span class="o">&amp;</span> <span class="nl">v</span><span class="p">:</span> <span class="n">vis</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">p</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="n">first</span><span class="p">;</span>   <span class="c1">// current point
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">auto</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="n">second</span><span class="p">;</span>    <span class="c1">// index
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="n">second</span><span class="p">;</span>    <span class="c1">// index
+</span></span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">nx</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">+</span> <span class="n">dx</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>   <span class="c1">// around points
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="kt">int</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">+</span> <span class="n">dy</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">+</span> <span class="n">dy</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">            <span class="n">PII</span> <span class="n">np</span> <span class="o">=</span> <span class="p">{</span><span class="n">nx</span><span class="p">,</span> <span class="n">ny</span><span class="p">};</span>
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">vis</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">np</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">// not in
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">ans</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">                <span class="n">ans</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">                <span class="n">qq</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">node</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">np</span><span class="p">));</span>   <span class="c1">// [in-vis points, out-vis points]
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">break</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">                <span class="k">break</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">            <span class="p">}</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -826,7 +826,7 @@
 </span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">pqq</span> <span class="o">=</span> <span class="n">qq</span><span class="p">.</span><span class="n">front</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="n">qq</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// erase old pairs
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">vis</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">pqq</span><span class="p">.</span><span class="n">a</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">        <span class="n">vis</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">pqq</span><span class="p">.</span><span class="n">a</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">q</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
@@ -839,9 +839,9 @@
 </span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">in_p</span><span class="p">.</span><span class="n">second</span> <span class="o">+</span> <span class="n">dy</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">            <span class="n">PII</span> <span class="n">cur_p</span> <span class="o">=</span> <span class="p">{</span><span class="n">nx</span><span class="p">,</span> <span class="n">ny</span><span class="p">};</span>
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">vis</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">cur_p</span><span class="p">))</span> <span class="p">{</span>       <span class="c1">// find!
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">ans</span><span class="p">[</span><span class="n">vis</span><span class="p">[</span><span class="n">cur_p</span><span class="p">]]</span> <span class="o">=</span> <span class="n">out_p</span><span class="p">;</span>  <span class="c1">// current point&#39;s surroundings is 
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">vis</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">cur_p</span><span class="p">);</span>         <span class="c1">// remove visited points
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">node</span><span class="p">(</span><span class="n">cur_p</span><span class="p">,</span> <span class="n">out_p</span><span class="p">));</span>
+</span></span></span><span class="line"><span class="cl">                <span class="n">ans</span><span class="p">[</span><span class="n">vis</span><span class="p">[</span><span class="n">cur_p</span><span class="p">]]</span> <span class="o">=</span> <span class="n">out_p</span><span class="p">;</span>  <span class="c1">// current point&#39;s surroundings is 
+</span></span></span><span class="line"><span class="cl">                <span class="n">vis</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">cur_p</span><span class="p">);</span>         <span class="c1">// remove visited points
+</span></span></span><span class="line"><span class="cl">                <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">node</span><span class="p">(</span><span class="n">cur_p</span><span class="p">,</span> <span class="n">out_p</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl">            <span class="p">}</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -880,7 +880,7 @@
 <p>题目大致的含义就是求最小的一个代价, 使得所有的珠子可以滑动到对应位置。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define ll long long
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">node</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="n">c</span><span class="p">;</span>
@@ -905,8 +905,8 @@
 </span></span><span class="line"><span class="cl">    <span class="n">sort</span><span class="p">(</span><span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">m</span> <span class="o">+</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1">// f[i][j]: 前i个位置, 最后固定位置为j的最小代价
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// 固定最左侧的    
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">f</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">c</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">    <span class="c1">// 固定最左侧的    
+</span></span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">c</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>

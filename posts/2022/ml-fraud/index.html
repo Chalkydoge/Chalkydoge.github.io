@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.16a441115fe0d1c1f80c42f39f0b8b1f67fdc315e1d20b918f87ed6a60d8dfc371d68149ef045132caa1ef0d55ae76aaa0415494ea054ae53161796a950f695c.css"
-    integrity="sha512-FqRBEV/g0cH4DELznwuLH2f9wxXh0guRj4ftamDY38Nx1oFJ7wRRMsqh7w1VrnaqoEFUlOoFSuUxYXlqlQ9pXA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1d74f9d5dfa930459e826894f1887b49745df0c4f6a969991efa0dc3f6407f8c9f713b1bdbf7dbf2c41d12ec373162b36d02b1f386ec091637fb5eeae1b533ab.css"
+    integrity="sha512-HXT51d&#43;pMEWegmiU8Yh7SXRd8MT2qWmZHvoNw/ZAf4yfcTsb2/fb8sQdEuw3MWKzbQKx84bsCRY3&#43;17q4bUzqw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -43,8 +43,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f8f2cec11308434554dfdbe3a0963bc19265192ebb9e2d644f3f9250731c879dfb09b44d2d58fcd06e8a1c9051b57f594719b37d21689d366ffd2db050df40a0.js"
-    integrity="sha512-&#43;PLOwRMIQ0VU39vjoJY7wZJlGS67ni1kTz&#43;SUHMch537CbRNLVj80G6KHJBRtX9ZRxmzfSFonTZv/S2wUN9AoA==" data-copy="复制" data-copied="已复制"></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b4a150efe91e7637ae9e43db58573e9edc22632d31d0c46de1d479f673d6779f7e96d2bc832d01bf9002bbf1ef2014843d4176c9735c40d5e7605f0a63266eac.js"
+    integrity="sha512-tKFQ7&#43;kedjeunkPbWFc&#43;ntwiYy0x0MRt4dR59nPWd59&#43;ltK8gy0Bv5ACu/HvIBSEPUF2yXNcQNXnYF8KYyZurA==" data-copy="复制" data-copied="已复制"></script>
   
   
   
@@ -577,7 +577,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="ck_doge" src="/img/blowfish_logo_hu_e74a130226122ae3.png" />
+      alt="ck_doge" src="/img/blowfish_logo_hu_eb3d8322571b28ec.png" />
     
   
   <div class="place-self-center">
@@ -1019,7 +1019,8 @@
 <li>dt 一项实际上和time有重复! (time包含了当天的小时+分钟+秒等信息)</li>
 </ol>
 <blockquote>
-<p>apply自定义时间(YY MM DD: hh:mm:ss to 时间戳整数)</p></blockquote>
+<p>apply自定义时间(YY MM DD: hh:mm:ss to 时间戳整数)</p>
+</blockquote>
 <p>将time转为时间戳, 去掉dt(重复了), 序列化week_day(0-1-2-3-4-5-6)表示星期天-星期六即可, hh小时可以不用改</p>
 <ol start="2">
 <li>增加特征, 替换time(绝对时间)</li>
@@ -1028,7 +1029,8 @@
 <p>cents 表示 交易金额取整之后剩余部分()</p>
 <blockquote>
 <p>df[&rsquo;time_in_day&rsquo;] = uni.TransactionDT % 86400
-df[&lsquo;cents&rsquo;] = uni.TransactionAmt % 1</p></blockquote>
+df[&lsquo;cents&rsquo;] = uni.TransactionAmt % 1</p>
+</blockquote>
 <ol start="3">
 <li>
 <p>使用lgb替代原先使用的XGBoost(实际上可以两种都使用)</p>
@@ -1039,10 +1041,12 @@ df[&lsquo;cents&rsquo;] = uni.TransactionAmt % 1</p></blockquote>
 </ol>
 <p>我认为这个或许可以替代手工实现一波特征的生成(引用openfe的feature-generation方法)</p>
 <blockquote>
-<p><a href="https://github.com/IIIS-Li-Group/OpenFE/blob/master/examples/IEEE-CIS-Fraud-Detection/main.py" target="_blank">https://github.com/IIIS-Li-Group/OpenFE/blob/master/examples/IEEE-CIS-Fraud-Detection/main.py</a></p></blockquote>
+<p><a href="https://github.com/IIIS-Li-Group/OpenFE/blob/master/examples/IEEE-CIS-Fraud-Detection/main.py" target="_blank">https://github.com/IIIS-Li-Group/OpenFE/blob/master/examples/IEEE-CIS-Fraud-Detection/main.py</a></p>
+</blockquote>
 <p>或者这个比较传统的方式</p>
 <blockquote>
-<p><a href="https://www.kaggle.com/code/jtrotman/ieee-fraud-adversarial-lgb-split-points" target="_blank">https://www.kaggle.com/code/jtrotman/ieee-fraud-adversarial-lgb-split-points</a></p></blockquote>
+<p><a href="https://www.kaggle.com/code/jtrotman/ieee-fraud-adversarial-lgb-split-points" target="_blank">https://www.kaggle.com/code/jtrotman/ieee-fraud-adversarial-lgb-split-points</a></p>
+</blockquote>
 <ul>
 <li>Cached OOF(Out-Of-Fold) 折外预测</li>
 <li>FAST Cross</li>

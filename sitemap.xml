@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://chalkydoge.github.io/posts/</loc>
-    <lastmod>2025-08-25T22:40:04+08:00</lastmod>
+    <lastmod>2025-12-31T18:35:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chalkydoge.github.io/posts/2025/week53/</loc>
+    <lastmod>2025-12-31T18:35:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chalkydoge.github.io/</loc>
+    <lastmod>2025-12-31T18:35:06+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -15,14 +27,32 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chalkydoge.github.io/</loc>
-    <lastmod>2025-08-25T22:40:04+08:00</lastmod>
+    <loc>https://chalkydoge.github.io/posts/2025/week29/</loc>
+    <lastmod>2025-07-18T21:33:22+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chalkydoge.github.io/posts/2025/0705/</loc>
+    <lastmod>2025-07-05T12:00:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chalkydoge.github.io/posts/2025/week20/</loc>
     <lastmod>2025-05-17T15:02:28+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chalkydoge.github.io/posts/2025/week19/</loc>
+    <lastmod>2025-05-10T20:16:35+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chalkydoge.github.io/posts/2025/0509/</loc>
+    <lastmod>2025-05-09T21:53:22+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
